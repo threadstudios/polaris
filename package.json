@@ -13,5 +13,11 @@
   },
   "scripts": {
     "build": "webpack"
-  }
+  },
+  "name": "@threadws/polaris",
+  "version": "0.1.0",
+  "main": "./dist/core.js",
+  "repository": "git@github.com:threadstudios/polaris.git",
+  "author": "Paul Westerdale <paul@westerdale.me>",
+  "license": "MIT"
 }
