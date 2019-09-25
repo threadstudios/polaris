@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "exclude": ["es.reflect.*", "es.typed-array.*"],
+        "debug": false, // Toggle this for more information on what is being bundled
+        "useBuiltIns": "entry",
+        "corejs": 3,
+        "targets": "defaults"
+      }
+    ]
+  ]
+}
